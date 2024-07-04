@@ -30,6 +30,9 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 
+    implementation 'io.jsonwebtoken::jjwt:0.9.1' //자바 jwt 라이브러리
+    implementation 'javax.xml.bind:jaxb-api:2.3.1' //xml문서와 java객체간 매핑자동화 
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
 
